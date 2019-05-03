@@ -5,8 +5,8 @@ coint = 100 #удалить
 random_n = '380673451018'
 tel = []
 index = ["38067","38098","38093","38063"]
-new_list = []
-k = 0
+
+
 
 while coint > 0:
     tel.append(random_n)
@@ -37,6 +37,8 @@ while coint > 0:
                 
     coint -=1
 while glob:
+    new_list = []
+    k = 0
     new = input()
 
     if new == "stop":
